@@ -13,3 +13,4 @@ This project consists of a program that automatically creates and solves a Mines
 ### The 4 algorithms
 As the Minesweeper game is an NP-complete problem (it has no efficient solution algorithm), I have designed 4 algorithms that work for almost all situations, but, if the complexity is too high, it will guess randomly, which may result in exploding a mine.
 #### 1st
+***Still to be edited***
