@@ -1,5 +1,5 @@
 # Minesweeper
-This project consists of a program that automatically creates and solves a Minesweeper board, using 4 different algorithms.
+This project consists of a program that creates and automatically solves a Minesweeper board, using 4 different algorithms.
 ## Repository files:
 - Minesweeper.py : The main program, in python.
 - Images/ : Folder containing all necessary images for the main program.\
