@@ -239,10 +239,10 @@ class Map():
 			print('hidden_group:',hidden_group)
 			edges = [hidden_group[0][0],hidden_group[0][1],hidden_group[0][0],hidden_group[0][1]]
 			for (x,y) in hidden_group:
-			    edges[0] = min(edges[0],x)
-			    edges[1] = min(edges[1],y)
-			    edges[2] = max(edges[2],x)
-			    edges[3] = max(edges[3],y)	
+				edges[0] = min(edges[0],x)
+				edges[1] = min(edges[1],y)
+				edges[2] = max(edges[2],x)
+				edges[3] = max(edges[3],y)	
 
 			p=2
 			edges = [edges[0]-min(edges[0],p),edges[1]-min(edges[1],p),edges[2]+1+min(len(grid[0])-edges[2],p),edges[3]+1+min(len(grid)-edges[3],p)]
